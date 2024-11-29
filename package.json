@@ -1,0 +1,42 @@
+{
+  "name": "my-platform-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "googleapis": "^39.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "mailparser": "^3.3.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "node-imap": "^0.9.6",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.4.17",
+    "papaparse": "^5.4.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "touch": "^3.1.1",
+    "uuid": "^11.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^3.1.7",
+    "sequelize-cli": "^6.6.2"
+  },
+  "proxy": "http://localhost:5000"
+}
